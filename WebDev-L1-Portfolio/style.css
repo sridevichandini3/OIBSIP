@@ -1,0 +1,98 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins', sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0b1220;
+color:white;
+}
+
+/* NAV */
+.nav{
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+background:#0f172a;
+position:sticky;
+top:0;
+}
+
+.nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:500;
+}
+
+.logo{
+font-weight:600;
+}
+
+/* HERO */
+.hero{
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#2563eb,#06b6d4);
+}
+
+.hero h1{
+font-size:50px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:10px 20px;
+background:white;
+color:#0f172a;
+border-radius:8px;
+text-decoration:none;
+font-weight:500;
+}
+
+/* SECTIONS */
+.section{
+padding:80px 20px;
+text-align:center;
+}
+
+.dark{
+background:#0f172a;
+}
+
+/* GRID */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+gap:15px;
+margin-top:20px;
+}
+
+.grid div{
+background:#1e293b;
+padding:15px;
+border-radius:10px;
+}
+
+/* CARDS */
+.card{
+background:#1e293b;
+padding:20px;
+margin:20px auto;
+max-width:500px;
+border-radius:12px;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}
